@@ -104,7 +104,7 @@ If you have any questions, please feel free to contact me at ${response.email}.
 Alternatively, you can view my other projects at github.com/${response.username}
 
         `;
-        fs.writeFile('samplereadme.md', ReadMeTemplate, (err) => {
+        fs.writeFile('readme.md', ReadMeTemplate, (err) => {
             if (err) {
               console.error('Error generating ReadMe file:', err);
             } else {
