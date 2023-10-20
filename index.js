@@ -31,7 +31,7 @@ inquirer
       type: 'list',
       message: 'Please chose a license type.',
       name: 'license',
-      choices: ['MIT', 'GPLv2', 'Apache', 'GPLv3', 'BSD 3-clause','unlicense','Other'],
+      choices: ['GPLv2', 'Apache','MIT', 'GPLv3', 'BSD 3-clause','unlicense','Other'],
     },
     {
         type: 'input',
@@ -40,17 +40,22 @@ inquirer
       },
       {
         type: 'input',
-        message: 'Please provide instructions for contributing',
+        message: 'Please provide instructions for contributing.',
         name: 'contributing',
       },
       {
         type: 'input',
-        message: 'Please enter your GitHub profile link',
+        message: 'What testing have you done on this application?',
+        name: 'tests',
+      },
+      {
+        type: 'input',
+        message: 'Please enter your GitHub profile link.',
         name: 'profile',
       },
       {
         type: 'input',
-        message: 'Please enter your email address',
+        message: 'Please enter your email address.',
         name: 'email',
       },
   ])
