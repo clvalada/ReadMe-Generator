@@ -45,8 +45,8 @@ inquirer
       },
       {
         type: 'input',
-        message: 'Please enter your GitHub username',
-        name: 'github',
+        message: 'Please enter your GitHub profile link',
+        name: 'profile',
       },
       {
         type: 'input',
@@ -101,7 +101,7 @@ ${response.tests}
 
 If you have any questions, please feel free to contact me at ${response.email}. 
 
-Alternatively, you can view my other projects at github.com/${response.username}
+Alternatively, you can view my other projects at ${response.profile}
 
         `;
         fs.writeFile('readme.md', ReadMeTemplate, (err) => {
