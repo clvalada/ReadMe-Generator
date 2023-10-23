@@ -23,6 +23,8 @@ First, ensure that you have installed and enabled Node.js If you are unsure, see
 
 Usage is easy. Just answer the prompts in the command line and ReadMe Generator will create a professional README.md file for you!
 
+Video of the app in action: https://drive.google.com/file/d/1hcdC1tbWAdfbp9DCfTfEOgiNRcfDFohr/view
+
 ## License
 
 MIT
